@@ -1,6 +1,6 @@
 # Shalom Zvidzwa
 
-Three things I accomplished today were: 
+Three things I accomplished today were:
 1. doing my hair
 2. laundry
 3. going out on a run
