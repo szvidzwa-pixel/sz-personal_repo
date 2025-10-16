@@ -1,0 +1,74 @@
+[
+  {
+    "name": "dot_number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Unique identifier for each carrier"
+  },
+  {
+    "name": "legal_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Carrier name, for ranking / top carriers"
+  },
+  {
+    "name": "state",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "State of registration, for state-level analysis"
+  },
+  {
+    "name": "safety_rating",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Satisfactory / Conditional / Unsatisfactory, key metric"
+  },
+  {
+    "name": "total_inspections",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Number of inspections, helps understand activity level"
+  },
+  {
+    "name": "total_violations",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Number of violations, used for risk ranking"
+  },
+  {
+    "name": "rating_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Date of rating, for time trend panel"
+  },
+  {
+    "name": "review_type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Type of review, for inspection analysis"
+  },
+  {
+    "name": "review_reason",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Reason review was initiated (optional, can include for context)"
+  },
+  {
+    "name": "rating_reason",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Reason rating was assigned (optional)"
+  },
+  {
+    "name": "mcsip_step",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Step in Motor Carrier Safety Improvement Process, optional insight"
+  },
+  {
+    "name": "action_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Current status of action, optional but useful for filtering"
+  }
+]
