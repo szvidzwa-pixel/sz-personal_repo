@@ -1,74 +1,158 @@
 [
   {
-    "name": "dot_number",
+    "original_name": "WATER_SYSTEM_NUMBER",
+    "snake_case": "water_system_number",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Unique identifier for each carrier"
+    "description": "Unique system ID"
   },
   {
-    "name": "legal_name",
+    "original_name": "SYSTEM_NAME",
+    "snake_case": "system_name",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Carrier name, for ranking / top carriers"
+    "description": "System name for ranking / labeling"
   },
   {
-    "name": "state",
+    "original_name": "COUNTY",
+    "snake_case": "county",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "State of registration, for state-level analysis"
+    "description": "Distribution by county"
   },
   {
-    "name": "safety_rating",
+    "original_name": "REGULATING_AGENCY",
+    "snake_case": "regulating_agency",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Satisfactory / Conditional / Unsatisfactory, key metric"
+    "description": "Filter by agency"
   },
   {
-    "name": "total_inspections",
-    "type": "INT64",
-    "mode": "NULLABLE",
-    "description": "Number of inspections, helps understand activity level"
+    "original_name": "FEDERAL_CLASSIFICATION_TYPE",
+    "snake_case": "federal_classification_type",
+    "type": "STRING",
+    "description": "Optional categorization"
   },
   {
-    "name": "total_violations",
-    "type": "INT64",
-    "mode": "NULLABLE",
-    "description": "Number of violations, used for risk ranking"
+    "original_name": "SERVICE_CONNECTIONS",
+    "snake_case": "service_connections",
+    "type": "INTEGER",
+    "description": "Key metric: size of system"
   },
   {
-    "name": "rating_date",
+    "original_name": "POPULATION",
+    "snake_case": "population",
+    "type": "INTEGER",
+    "description": "Key metric: affected population"
+  },
+  {
+    "original_name": "OWNER_TYPE",
+    "snake_case": "owner_type",
+    "type": "STRING",
+    "description": "Distribution analysis by owner type"
+  },
+  {
+    "original_name": "LATITUDE_MEASURE",
+    "snake_case": "latitude",
+    "type": "FLOAT",
+    "description": "Map visualization"
+  },
+  {
+    "original_name": "LONGITUDE_MEASURE",
+    "snake_case": "longitude",
+    "type": "FLOAT",
+    "description": "Map visualization"
+  },
+  {
+    "original_name": "RISK_ASSESSMENT_RESULT",
+    "snake_case": "risk_assessment_result",
+    "type": "STRING",
+    "description": "Overall risk level, primary metric"
+  },
+  {
+    "original_name": "CURRENT_FAILING",
+    "snake_case": "current_failing",
+    "type": "BOOLEAN",
+    "description": "Identify failing systems"
+  },
+  {
+    "original_name": "FINAL_SAFER_STATUS",
+    "snake_case": "final_safer_status",
+    "type": "STRING",
+    "description": "Summary status (like pass/fail)"
+  },
+  {
+    "original_name": "FAILING_START_DATE",
+    "snake_case": "failing_start_date",
     "type": "DATE",
-    "mode": "NULLABLE",
-    "description": "Date of rating, for time trend panel"
+    "description": "Trend analysis over time"
   },
   {
-    "name": "review_type",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Type of review, for inspection analysis"
+    "original_name": "TOTAL_WEIGHTED_RISK_SCORE_BEFORE_DIVIDING_BY_CATEGORY_COUNT",
+    "snake_case": "total_weighted_risk_score",
+    "type": "FLOAT",
+    "description": "Aggregate risk score"
   },
   {
-    "name": "review_reason",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Reason review was initiated (optional, can include for context)"
+    "original_name": "WATER_QUALITY_SCORE",
+    "snake_case": "water_quality_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
   },
   {
-    "name": "rating_reason",
+    "original_name": "WATER_QUALITY_RISK_LEVEL",
+    "snake_case": "water_quality_risk_level",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Reason rating was assigned (optional)"
+    "description": "Categorized for visualization"
   },
   {
-    "name": "mcsip_step",
-    "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Step in Motor Carrier Safety Improvement Process, optional insight"
+    "original_name": "ACCESSIBILITY_SCORE",
+    "snake_case": "accessibility_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
   },
   {
-    "name": "action_status",
+    "original_name": "ASSESSIBILITY_RISK_LEVEL",
+    "snake_case": "accessibility_risk_level",
     "type": "STRING",
-    "mode": "NULLABLE",
-    "description": "Current status of action, optional but useful for filtering"
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "AFFORDABILITY_SCORE",
+    "snake_case": "affordability_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
+  },
+  {
+    "original_name": "AFFORDABILITY_RISK_LEVEL",
+    "snake_case": "affordability_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "TMF_CAPACITY_SCORE",
+    "snake_case": "tmf_capacity_score",
+    "type": "FLOAT",
+    "description": "Treatment & capacity metric"
+  },
+  {
+    "original_name": "TMF_CAPACITY_RISK_LEVEL",
+    "snake_case": "tmf_capacity_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "HISTORY_OF_E_COLI_PRESENCE_RISK_LEVEL",
+    "snake_case": "history_of_e_coli_risk_level",
+    "type": "STRING",
+    "description": "Water quality risk metric"
+  },
+  {
+    "original_name": "PRIMARY_MCL_VIOLATION",
+    "snake_case": "primary_mcl_violation",
+    "type": "STRING",
+    "description": "Highlight major violations"
+  },
+  {
+    "original_name": "SECONDARY_MCL_VIOLATION",
+    "snake_case": "secondary_mcl_violation",
+    "type": "STRING",
+    "description": "Secondary violations"
   }
 ]
