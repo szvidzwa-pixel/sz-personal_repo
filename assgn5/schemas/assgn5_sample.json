@@ -1,0 +1,158 @@
+[
+  {
+    "original_name": "WATER_SYSTEM_NUMBER",
+    "snake_case": "water_system_number",
+    "type": "STRING",
+    "description": "Unique system ID"
+  },
+  {
+    "original_name": "SYSTEM_NAME",
+    "snake_case": "system_name",
+    "type": "STRING",
+    "description": "System name for ranking / labeling"
+  },
+  {
+    "original_name": "COUNTY",
+    "snake_case": "county",
+    "type": "STRING",
+    "description": "Distribution by county"
+  },
+  {
+    "original_name": "REGULATING_AGENCY",
+    "snake_case": "regulating_agency",
+    "type": "STRING",
+    "description": "Filter by agency"
+  },
+  {
+    "original_name": "FEDERAL_CLASSIFICATION_TYPE",
+    "snake_case": "federal_classification_type",
+    "type": "STRING",
+    "description": "Optional categorization"
+  },
+  {
+    "original_name": "SERVICE_CONNECTIONS",
+    "snake_case": "service_connections",
+    "type": "INTEGER",
+    "description": "Key metric: size of system"
+  },
+  {
+    "original_name": "POPULATION",
+    "snake_case": "population",
+    "type": "INTEGER",
+    "description": "Key metric: affected population"
+  },
+  {
+    "original_name": "OWNER_TYPE",
+    "snake_case": "owner_type",
+    "type": "STRING",
+    "description": "Distribution analysis by owner type"
+  },
+  {
+    "original_name": "LATITUDE_MEASURE",
+    "snake_case": "latitude",
+    "type": "FLOAT",
+    "description": "Map visualization"
+  },
+  {
+    "original_name": "LONGITUDE_MEASURE",
+    "snake_case": "longitude",
+    "type": "FLOAT",
+    "description": "Map visualization"
+  },
+  {
+    "original_name": "RISK_ASSESSMENT_RESULT",
+    "snake_case": "risk_assessment_result",
+    "type": "STRING",
+    "description": "Overall risk level, primary metric"
+  },
+  {
+    "original_name": "CURRENT_FAILING",
+    "snake_case": "current_failing",
+    "type": "BOOLEAN",
+    "description": "Identify failing systems"
+  },
+  {
+    "original_name": "FINAL_SAFER_STATUS",
+    "snake_case": "final_safer_status",
+    "type": "STRING",
+    "description": "Summary status (like pass/fail)"
+  },
+  {
+    "original_name": "FAILING_START_DATE",
+    "snake_case": "failing_start_date",
+    "type": "DATE",
+    "description": "Trend analysis over time"
+  },
+  {
+    "original_name": "TOTAL_WEIGHTED_RISK_SCORE_BEFORE_DIVIDING_BY_CATEGORY_COUNT",
+    "snake_case": "total_weighted_risk_score",
+    "type": "FLOAT",
+    "description": "Aggregate risk score"
+  },
+  {
+    "original_name": "WATER_QUALITY_SCORE",
+    "snake_case": "water_quality_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
+  },
+  {
+    "original_name": "WATER_QUALITY_RISK_LEVEL",
+    "snake_case": "water_quality_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "ACCESSIBILITY_SCORE",
+    "snake_case": "accessibility_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
+  },
+  {
+    "original_name": "ASSESSIBILITY_RISK_LEVEL",
+    "snake_case": "accessibility_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "AFFORDABILITY_SCORE",
+    "snake_case": "affordability_score",
+    "type": "FLOAT",
+    "description": "Component metric for panel"
+  },
+  {
+    "original_name": "AFFORDABILITY_RISK_LEVEL",
+    "snake_case": "affordability_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "TMF_CAPACITY_SCORE",
+    "snake_case": "tmf_capacity_score",
+    "type": "FLOAT",
+    "description": "Treatment & capacity metric"
+  },
+  {
+    "original_name": "TMF_CAPACITY_RISK_LEVEL",
+    "snake_case": "tmf_capacity_risk_level",
+    "type": "STRING",
+    "description": "Categorized for visualization"
+  },
+  {
+    "original_name": "HISTORY_OF_E_COLI_PRESENCE_RISK_LEVEL",
+    "snake_case": "history_of_e_coli_risk_level",
+    "type": "STRING",
+    "description": "Water quality risk metric"
+  },
+  {
+    "original_name": "PRIMARY_MCL_VIOLATION",
+    "snake_case": "primary_mcl_violation",
+    "type": "STRING",
+    "description": "Highlight major violations"
+  },
+  {
+    "original_name": "SECONDARY_MCL_VIOLATION",
+    "snake_case": "secondary_mcl_violation",
+    "type": "STRING",
+    "description": "Secondary violations"
+  }
+]
